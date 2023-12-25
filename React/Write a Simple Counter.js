@@ -22,7 +22,7 @@ class Counter extends React.Component {
     // Change code below this line
     increment(){
         this.setState(state => ({
-            count: state.count + 10}));
+            count: state.count + 1}));
     }
     decrement(){
         this.setState(state=>({
