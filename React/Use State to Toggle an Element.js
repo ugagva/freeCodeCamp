@@ -26,7 +26,7 @@ class MyComponent extends React.Component {
     // Change code below this line
     toggleVisibility(){
         this.setState(state=>{
-                if(state.visibility==true){
+                if(state.visibility ===true){
                     return {visibility:false}
                 } else return {visibility:true}
             }
