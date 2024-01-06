@@ -4,7 +4,7 @@
 
 
 //function digitalRoot(n) {
-//   return (n-2)%9+1;
+//   return (n-1)%9+1;
 //
 //   }
 //
