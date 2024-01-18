@@ -9,7 +9,7 @@
 // Note: for this kata y isn't considered a vowel.
 
 
-//function disemvowel(str) {
-//   let newStr= str.match(/[^aeiou]/gi).join('');
-//   return newStr;
-// }
+function disemvowel(str) {
+  let newStr= str.match(/[^aeiou]/gi).join('');
+  return newStr;
+ }
